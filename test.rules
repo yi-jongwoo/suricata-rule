@@ -11,7 +11,7 @@ alert tcp any any -> any 443 (msg:"bbc.co.uk tls access"; content:"bbc.co.uk"; s
 alert tcp any any -> any 443 (msg:"python.org tls access"; content:"python.org"; sid:20008; rev:1;)
 alert tcp any any -> any 443 (msg:"daum.net tls access"; content:"daum.net"; sid:20009; rev:1;)
 alert tcp any any -> any 443 (msg:"zum.com tls access"; content:"zum.com"; sid:20010; rev:1;)
-alert tcp any any -> any 443 (msg:"daum.net tls access"; content:"daum.net"; sid:20011; rev:1;)
+alert tcp any any -> any 443 (msg:"zer0pts.com tls access"; content:"zer0pts.com"; sid:20011; rev:1;)
 alert tcp any any -> any 443 (msg:"noj.am tls access"; content:"noj.am"; sid:20012; rev:1;)
 alert tcp any any -> any 443 (msg:"codeforces.com tls access"; content:"codeforces.com"; sid:20013; rev:1;)
 alert tcp any any -> any 443 (msg:"reddit.com tls access"; content:"reddit.com"; sid:20014; rev:1;)
